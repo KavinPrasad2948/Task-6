@@ -75,6 +75,8 @@ The `UberPrice` class represents the pricing for an Uber ride based on distance,
 - `getDurationPrice()`: Returns the price based on the duration and the cost per minute.
 - `getPrice()`: Returns the total price based on the distance, duration, and other factors.
 
----
+
 
 [^1]: THANK YOU
+
+----
