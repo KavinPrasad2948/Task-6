@@ -28,8 +28,8 @@ class Circle {
   }
   
   const Circle1 = new Circle(8, "black");
-  const Circle2 = new Circle(3.5,"grey");
-  const Circle3 = new Circle(4);
+  const Circle2 = new Circle(7.5,"grey");
+  const Circle3 = new Circle(5);
   
   console.log(Circle1.toString());
   console.log("Area of circle1 : " + Circle1.getArea());

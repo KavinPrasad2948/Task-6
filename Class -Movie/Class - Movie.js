@@ -6,19 +6,19 @@ class Movie {
   }
 
   static getPG(movies) {
-    return movies.filter(movie => movie.rating === "PG-13");
+    return movies.filter(movie => movie.rating === "PG");
   }
 }
 
-const casinoRoyale = new Movie("Casino Royale", "Eon Productions", "PG-13");
+const casinoRoyale = new Movie("Casino Royale", "Eon Productions", "PG");
 console.log(casinoRoyale);
 
 const movies = [
-  new Movie("Casino Royale", "Eon Productions", "PG-13"),
+  new Movie("Casino Royale", "Eon Productions", "PG"),
   new Movie("John wick", "87Eleven productions", "R"),
   new Movie("The Godfather", "Paramount Pictures", "R"),
   new Movie("Aayirathil Oruvan", "Dream Valley Corporation", "R"),
-  new Movie("Leo", "Seven Screen Studio", "PG-13")
+  new Movie("Leo", "Seven Screen Studio")
 ];
 
 const pgMovies = Movie.getPG(movies);
