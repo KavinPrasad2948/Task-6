@@ -5,7 +5,7 @@
 
 ## Movie Class
 
-The Movie class represents a film and has the following properties:
+The `Movie` class represents a film and has the following properties:
 
 - title: A string representing the title of the movie.
 - studio: A string representing the studio that made the movie.
@@ -22,7 +22,7 @@ The getPG method is a static method of the Movie class that takes an array of Mo
 
 ## Circle Class
 
-The Circle class represents a circle with properties for radius and colour. It includes methods to get and set the radius and colour, calculate the area and circumference of the circle, and provide a string representation of the circle.
+The `Circle` class represents a circle with properties for radius and colour. It includes methods to get and set the radius and colour, calculate the area and circumference of the circle, and provide a string representation of the circle.
 ### Constructor
 
 The constructor for the Circle class takes two parameters: radius and colour. If no radius or colour is provided, the default values are 1.0 and "red", respectively.
@@ -56,3 +56,25 @@ The `Person` class represents a person with properties for their name, date of b
 - `getBio()`: Returns a string that includes the full name, age, gender, and hobbies .
   
 ---
+## UberPrice Class
+
+The `UberPrice` class represents the pricing for an Uber ride based on distance, duration, and other factors.
+
+### Constructor
+
+- `distance`: The distance of the ride in kilometers.
+- `duration`: The duration of the ride in minutes.
+- `baseFare`: The base fare for the ride (default: 3.00).
+- `costPerKm`: The cost per kilometer (default: 5.10).
+- `costPerMinute`: The cost per minute (default: 0.30).
+- `bookingFee`: The booking fee (default: 3.00).
+
+### Methods
+
+- `getDistancePrice()`: Returns the price based on the distance and the cost per kilometer.
+- `getDurationPrice()`: Returns the price based on the duration and the cost per minute.
+- `getPrice()`: Returns the total price based on the distance, duration, and other factors.
+
+---
+
+[^1]: THANK YOU

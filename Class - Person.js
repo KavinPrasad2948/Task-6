@@ -17,6 +17,9 @@ class Person {
         return `${this.getFullName()} is ${this.getAge()} years old, ${this.gender} and likes ${this.Hobbies.join(', ')}`;
     }
 }
-const person1 = new Person('John', 'Doe', '1999-06-01', 'male', ['reading', 'traveling']);
+const person1 = new Person('Kavin', 'Prasad', '2000-08-30', 'male', ['reading', 'traveling']);
+const person2 = new Person('Vishnu','Prasath','2003-03-09', 'male', ['reading', 'traveling']);
 console.log(person1.getFullName());
 console.log(person1.getBio());
+console.log(person2.getFullName());
+console.log(person2.getBio());
